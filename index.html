@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Jumpstyle League</title>
+</head>
+
+<body data-spy="scroll" data-target="#header" data-offset="70">
+    <!-----Header-->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="jumpstyle logo">
+                Jumpstyle League
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#main">Jumpstyle League<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#judges">Judges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#place-time">Date and place</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-participant" data-toggle="modal" data-target="#modalCompra" href="#">Be
+                            a participant</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    </div>
+
+    <!---Carousel main-->
+    <main id="main">
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="8000">
+                    <img src="./assets/cancun1.jpg" class="d-block w-100" alt="cancun 1">
+                </div>
+                <div class="carousel-item" data-interval="8000">
+                    <img src="./assets/cancun2.jpg" class="d-block w-100" alt="cancun 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/cancun3.jpg" class="d-block w-100" alt="cancun 3">
+                </div>
+                <div class="overlay">
+                    <div class="container">
+
+                        <div class="row align-items-center text-center text-md-right">
+                            <div class="col-md-6 offset-md-6">
+                                <h1>Jumpstyle Cancún</h1>
+                                <p class="d-none d-md-block">
+                                    The first international Meeting comes for the first time to Cancun Mexico where it
+                                    meets
+                                    Jumpers from all over the world, there will be a league to take the first place
+                                    trophy.
+                                    We are waiting for you to participate in this great event made in one and the most
+                                    beautiful beaches!
+                                    from the Caribbean !.
+                                </p>
+                                <a href="#" class="btn btn-outline-light form-group"> I want to be Judge</a>
+                                <button type="button" class="btn btn-participant form-group" data-toggle="modal"
+                                    data-target="#modalCompra">I want to participate</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--- Cards-->
+    <section id="judges" class="mt-4 ">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+
+                    <small>meet the</small>
+                    <h2>Judges</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4 ">
+                    <div class="card">
+                        <img src="./assets/belir.jpg" class="card-img-top" alt="Belir">
+                        <div class="card-body">
+                            <span class="offset-sm-12 offset-md-5 badge badge-pill badge-warning">+8 years</span>
+                            <span class="badge badge-pill badge-info">Ukraine</span>
+                            <h5 class="card-title mb-0"> Belir </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente similique fuga,
+                                optio reiciendis corporis natus deleniti praesentium distinctio ad inventore ipsum atque
+                                eveniet nobis,
+                                repellendus labore. Praesentium, beatae unde?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./assets/scot.jpg" class="card-img-top" alt="Scot">
+                        <div class="card-body">
+                            <span class="offset-sm-12 offset-md-5 badge badge-pill badge-warning">+10 years</span>
+                            <span class="badge badge-pill badge-danger">Ukraine</span>
+                            <h5 class="card-title mb-0">Scot</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente similique fuga,
+                                optio reiciendis corporis natus deleniti praesentium distinctio ad inventore ipsum atque
+                                eveniet nobis,
+                                repellendus labore. Praesentium, beatae unde?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./assets/covin.jpg" class="card-img-top" alt="Covin">
+                        <div class="card-body">
+                            <span class="offset-sm-12 offset-md-5 badge badge-pill badge-warning">+5 years</span>
+                            <span class="badge badge-pill badge-success">Ukraine</span>
+                            <h5 class="card-title mb-0">MrCovin</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae sapiente similique fuga,
+                                optio reiciendis corporis natus deleniti praesentium distinctio ad inventore ipsum atque
+                                eveniet nobis,
+                                repellendus labore. Praesentium, beatae unde?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Place and date-->
+    <section id="place-time">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6  pl-0 pr-0">
+                    <img src="./assets/tulum.jpg" alt="Tulum">
+                </div>
+                <div class="col-12 col-lg-6 pt-4 pb-4">
+                    <h2>Tulum - November 14 2030</h2>
+                    <p>
+                        Tulum is a city on the Caribbean coast of Mexico, on the Yucatan Peninsula. It is known for
+                        their
+                        well-preserved ruins of an ancient Mayan port. The main building is a great structure
+                        made of stone called El Castillo,
+                        perched on top of a rocky cliff above white sand beaches and the
+                        turquoise sea. Near the ruins,
+                        is the Tulum National Park, a coastal area with mangroves and cenotes.
+                    </p>
+                    <a href="https://es.wikipedia.org/wiki/Tulum" class="btn btn-outline-light">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Be a judge-->
+    <section class="be-judge mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+                    <small>Be a </small>
+                    <h2>Judge</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    Sign up as a judge, tell us your experience as a jumper <abbr data-toggle="tooltip"
+                        title="league appearances">ignite</abbr> and of judge
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+                        <div class="form-row pb-2">
+                            <textarea name="text" class="form-control form-control-lg"
+                                placeholder="tell us about yourself"></textarea>
+                            <small class="form-text text-muted">Remember to include a title</small>
+                        </div>
+                        <div class="form-row pb-4">
+                            <div class="col">
+                                <button type="button" class="btn btn-participant btn-block">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--- Footer---->
+    <footer class="footer pb-4 pt-4 ">
+        <div class="container ">
+            <div class="row text-center">
+                <div class="col-12 col-lg">
+                    <a href="#">Preguntas Frecuentes</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Contáctanos </a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Conferencias</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Términos y condiciones</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                </div>
+                <div class="col-12 col-lg">
+                    <a href="#">Estudiantes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--- Modal -->
+
+    <div class="modal fade " id="modalCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                                        aria-describedby="basic-addon1"/>
+                                </div>
+                                <div class="input-group-prepend">
+                                    <input type="email" class="form-control" placeholder="zuNoJumper@example.com">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="alert alert-warning" role="alert">
+                        A confirmation email will be sent
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
